@@ -12,6 +12,9 @@ $ docker-compose up -d --build
 $ docker-compose exec gas clasp -v
 # 2.3.0
 
+# npm install
+$ docker-compose exec gas npm install
+
 # auth
 $ docker-compose exec gas clasp login --no-localhost
 ```
